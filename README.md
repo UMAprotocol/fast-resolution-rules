@@ -9,5 +9,5 @@ This repository hosts rules for resolving fast resolution assertions on UMA enha
 
 If some of above required information is missing or has invalid value the asserted claim should be evaluated as `false`.
 
-As an illustration, the claim relying on fast assertion rules could be formatted as `{"title":"Binance candle is Up or Down","valueAsserted":0,"options":{"0":"DOWN","1":"UP"},"requestIdentifier":"BINANCE_CANDLE_UP_DOWN","requestKey":"0x575926346221801313287f612d3ad6def86f00eb5f00fc89751e292fa3be0bf8","requestData":{"symbol":"BTCUSDT","startTime":1699995600000,"endTime":1699999199999,"interval":"1h"},"assertionTimestamp":1700000000,"rulesLink":"https://github.com/UMAprotocol/fast-resolution-rules/"}`
+As an illustration, the claim relying on fast assertion rules could be formatted as `{"title":"Binance 1h candle BTCUSDT on November 14, 2023 at 21:00 UTC - DOWN","valueAsserted":0,"options":{"0":"DOWN","1":"UP"},"requestIdentifier":"BINANCE_CANDLE_UP_DOWN","requestKey":"0x575926346221801313287f612d3ad6def86f00eb5f00fc89751e292fa3be0bf8","requestData":{"symbol":"BTCUSDT","startTime":1699995600000,"endTime":1699999199999,"interval":"1h"},"assertionTimestamp":1700000000,"rulesLink":"https://github.com/UMAprotocol/fast-resolution-rules/"}`
 
